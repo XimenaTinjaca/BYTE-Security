@@ -1,0 +1,12 @@
+[
+  "session_duration_sec",
+  "files_modified_per_sec",
+  "overwrite_ratio",
+  "sequential_score",
+  "max_files_per_10sec",
+  "unique_dirs_touched",
+  "write_count",
+  "read_count",
+  "unique_files_touched",
+  "mean_entropy_delta"
+]

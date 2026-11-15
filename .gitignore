@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.env
+
+# Generated during runs — easily recreated, often large
+simulator/test-sandbox/
+simulator/logs/
+backend/ransomdb.sqlite
+backend/sync-staging/
+backend/quarantine/
+backend/version-store/
+
+# Keep model files (needed by backend) but exclude large plot PNGs
+ml-model/plots/
+
+# Keep features.csv (needed for retraining) — don't exclude it
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# VS Code / editor
+.vscode/
+.idea/
+# Demo files and generated data
+simulator/video-demo-final/
+*.ndjson
+*.sqlite3
+
+# Environment variables
+.env.*
+!.env.example
+
+# Temporary cleanup backup
+BYTE_SECURITY_BACKUP/
+
+simulator/test-sandbox-attack/
+
+# Copias antiguas y respaldos generados
+*.backup
+*.bak
+*.original.css
+simulator/integration-test/backups/

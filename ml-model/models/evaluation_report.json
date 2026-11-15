@@ -1,0 +1,18 @@
+{
+  "best_model": "Random Forest",
+  "training_notes": "Robust model: noise augmentation + regularized hyperparameters",
+  "models": [
+    {
+      "model": "Random Forest",
+      "cv_f1": 1.0
+    },
+    {
+      "model": "XGBoost",
+      "cv_f1": 0.9882352941176471
+    },
+    {
+      "model": "Isolation Forest",
+      "cv_f1": 0.5454545454545454
+    }
+  ]
+}
